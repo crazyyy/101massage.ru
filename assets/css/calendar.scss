@@ -1,0 +1,127 @@
+/* calendar icon */
+
+img.tcalIcon {
+  cursor: pointer;
+  margin-left: 1px;
+  vertical-align: middle;
+}
+
+/* calendar container element */
+
+div#tcal {
+  position: absolute;
+  visibility: hidden;
+  z-index: 100;
+  width: 158px;
+  padding: 2px 0 0 0;
+  z-index: 1003;
+  color: #000000;
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+  table {
+    width: 100%;
+    border: 1px solid silver;
+    border-collapse: collapse;
+    background-color: white;
+
+    &.ctrl {
+      border-bottom: 0;
+
+      td {
+        width: 15px;
+        height: 20px;
+      }
+
+      th {
+        background-color: white;
+        color: black;
+        border: 0;
+      }
+    }
+  }
+
+  th {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 3px 0;
+    font-family: tahoma, verdana, arial;
+    font-size: 10px;
+    background-color: gray;
+    color: white;
+  }
+
+  td {
+    border: 0;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2px 0;
+    font-family: tahoma, verdana, arial;
+    font-size: 11px;
+    width: 22px;
+    cursor: pointer;
+
+    &.othermonth {
+      color: silver;
+    }
+
+    &.weekend {
+      background-color: #ACD6F5;
+    }
+
+    &.today {
+      border: 1px solid red;
+    }
+
+    &.selected {
+      background-color: #FFB3BE;
+    }
+  }
+}
+
+/* all tables in calendar */
+
+/* navigation table */
+
+/* navigation buttons */
+
+/* month year header */
+
+/* week days header */
+
+/* date cells */
+
+/* date highlight
+   in case of conflicting settings order here determines the priority from least to most important */
+
+/* iframe element used to suppress windowed controls in IE5/6 */
+
+iframe#tcalIF {
+  position: absolute;
+  visibility: hidden;
+  z-index: 98;
+  border: 0;
+}
+
+/* transparent shadow */
+
+div#tcalShade {
+  position: absolute;
+  visibility: hidden;
+  z-index: 99;
+
+  table {
+    border: 0;
+    border-collapse: collapse;
+    width: 100%;
+
+    td {
+      border: 0;
+      border-collapse: collapse;
+      padding: 0;
+    }
+  }
+}
