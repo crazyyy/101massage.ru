@@ -1,36 +1,103 @@
 /* --------------- default --------------- */
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, form, label, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+em,
+strong,
+sub,
+sup,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   font-size: 100%;
+
   margin: 0;
   padding: 0;
+
   border: 0;
   outline: 0;
   background: transparent;
 }
 
-button::-moz-focus-inner, input::-moz-focus-inner {
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   padding: 0;
+
   border: 0;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, small {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+small {
   display: block;
 }
 
 sub {
   font-size: 75%;
   line-height: 0;
+
   position: relative;
+
   vertical-align: baseline;
 }
 
 sup {
   font-size: 75%;
   line-height: 0;
+
   position: relative;
-  vertical-align: baseline;
   top: -.5em;
+
+  vertical-align: baseline;
 }
 
 sub {
@@ -41,7 +108,12 @@ ins {
   text-decoration: none;
 }
 
-p, pre, blockquote, ul, ol, dl {
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl {
   margin: 1em 0;
 }
 
@@ -50,51 +122,72 @@ blockquote {
   margin-left: 40px;
 }
 
-ol, ul, dd {
+ol,
+ul,
+dd {
   margin-left: 40px;
 }
 
-pre, code, kbd, samp {
+pre,
+code,
+kbd,
+samp {
   font-family: monospace, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
+
   text-transform: uppercase;
+
   color: #369;
 }
 
 h1 {
   font-size: 18px;
+
   margin: 0 0 24px;
 }
 
 h2 {
   font-size: 17px;
+
   margin: .83em 0;
 }
 
 h3 {
   font-size: 16px;
+
   margin: 1.0em 0;
 }
 
 h4 {
   font-size: 15px;
+
   margin: 1.33em 0;
 }
 
 h5 {
   font-size: 14px;
+
   margin: 1.5em 0;
 }
 
 h6 {
   font-size: 13px;
+
   margin: 1.67em 0;
 }
 
-input, select, button, textarea {
+input,
+select,
+button,
+textarea {
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 }
 
@@ -108,27 +201,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1.25;
+
   text-align: left;
+
   color: #666;
   background: #fff;
-
   &.sand {
     background: #fff;
   }
-
-  img, a img {
+  img,
+  a img {
     border: none;
   }
-
-  input, select, button {
+  input,
+  select,
+  button {
     outline: none;
   }
 }
 
 a {
   text-decoration: underline;
-  color: #369;
 
+  color: #369;
   &:hover {
     text-decoration: none;
   }
@@ -136,43 +231,52 @@ a {
 
 hr {
   height: 1px;
+
   color: #aaa;
   border: none;
   background: #aaa;
 }
 
-html, body {
+html,
+body {
   position: relative;
+
   min-width: 790px;
   height: 100%;
 }
 
-.YMaps, #printMe {
+.YMaps,
+#printMe {
   color: #000;
 }
 
 .menu-default {
   margin: 0;
   padding: 0;
-  list-style: none;
 
-  ul, li {
+  list-style: none;
+  ul,
+  li {
     margin: 0;
     padding: 0;
+
     list-style: none;
   }
 }
 
 .clear-self:after {
   font-size: 0;
+
   display: block;
   clear: both;
+
   content: '';
 }
 
 .clearfix::after {
   display: table;
   clear: both;
+
   content: '';
 }
 
@@ -194,12 +298,14 @@ html, body {
 
 .clear-footer {
   clear: both;
+
   height: 51px;
 }
 
 .cleaner {
   font-size: 0;
   line-height: 0;
+
   clear: both;
 }
 
@@ -208,20 +314,22 @@ html, body {
 
 .site-header {
   font-size: 0;
+
   position: relative;
+
   box-sizing: border-box;
   width: 840px;
   min-height: 70px;
   margin: 7px auto 0;
   padding: 6px 20px 7px 0;
+
   text-align: right;
+
   border-radius: 5px;
   background-color: #5b7fa6;
-
   p {
     margin: 0;
   }
-
   img {
     border: none;
   }
@@ -229,10 +337,13 @@ html, body {
 
 .site-logo {
   font: bold italic 24px/1 Arial, Helvetica, sans-serif;
+
   display: inline-block;
+
   text-decoration: none;
   letter-spacing: .1px;
   text-transform: uppercase;
+
   color: #fff;
 }
 
@@ -241,54 +352,67 @@ html, body {
     font-family: 'PtSans', Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.4;
+
     float: right;
+
     padding-top: 8px;
+
     text-align: right;
+
     color: #fff;
   }
-
   .main_phone {
     padding-left: 30px;
+
     background: url('') no-repeat left center;
   }
-
   .mobile_phone {
     position: relative;
+
     padding-left: 10px;
   }
 }
 
 .site-header-n {
   font-size: 18px;
+
   display: table;
+
   width: 840px;
   height: 57px;
   margin: auto;
+
   table-layout: fixed;
+
   text-align: center;
+
   color: #333;
   background: #c30;
 }
 
 .head-cell {
   display: table-cell;
-  padding: 5px;
-  vertical-align: middle;
 
+  padding: 5px;
+
+  vertical-align: middle;
   &.cell-first {
     width: 106px;
   }
-
   &.cell-center {
     line-height: 21px;
+
     padding-left: 24px;
+
     text-align: left;
+
     background: #fff;
   }
-
   &.cell-last {
     font: 12px Tahoma, Geneva, sans-serif;
+
     width: 294px;
+
     color: #fff;
   }
 }
@@ -296,40 +420,42 @@ html, body {
 .site-header .logo {
   display: block;
   float: left;
+
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
 
+  color: #fff;
   .logo-img {
     position: absolute;
     top: -4px;
     left: 20px;
+
     width: 78px;
     height: 78px;
+
     border-radius: 50%;
     box-shadow: -1px 1px 2px #666;
   }
-
   .logo-text {
     font-family: Verdana;
     font-weight: 400;
     line-height: 18px;
-    display: inline-block;
-    padding-left: 118px;
 
+    display: inline-block;
+
+    padding-left: 118px;
     :first-of-type {
       font-size: 12px;
     }
-
     :last-of-type {
       font-size: 28px;
       font-weight: 700;
     }
   }
-
   .copy {
     position: absolute;
     top: 10px;
+
     margin-left: 7px;
   }
 }
@@ -339,8 +465,11 @@ html, body {
 
 .menu-top-wrap {
   font-size: 0;
+
   position: relative;
+
   margin-top: 5px;
+
   text-align: center;
 }
 
@@ -350,11 +479,14 @@ html, body {
 
 .menu-top {
   position: relative;
+
   box-sizing: border-box;
   width: 840px;
   margin: 0 auto;
   padding: 3px 0 2px 18px;
+
   text-align: left;
+
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background: #cd3000;
@@ -362,6 +494,7 @@ html, body {
 
 .sand .menu-top {
   padding: 0;
+
   border-top: 4px solid #fff;
   border-bottom: 5px solid #fff;
   background: #5b7fa6;
@@ -370,22 +503,26 @@ html, body {
 .menu-top li {
   display: inline-block;
   overflow: hidden;
+
   height: 36px;
   padding: 1px 19px 2px 13px;
+
   text-align: center;
   vertical-align: top;
-
   + li {
     position: relative;
-    padding-left: 21px;
 
+    padding-left: 21px;
     &:after {
       position: absolute;
       top: 6px;
       bottom: 6px;
       left: 0;
+
       width: 1px;
+
       content: '';
+
       background: #fff;
     }
   }
@@ -398,24 +535,25 @@ html, body {
 
 .menu-top li a {
   font: 11px/1.7 Verdana, Geneva, sans-serif;
+
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
 
+  color: #fff;
   .table {
     display: table;
+
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
     width: 100%;
     height: 100%;
   }
-
   .middle {
     display: table-cell;
+
     vertical-align: middle;
   }
-
   &:hover .middle {
     text-decoration: underline;
   }
@@ -426,9 +564,9 @@ html, body {
 
 .site-content-wrap {
   position: relative;
+
   width: 840px;
   margin: 0 auto;
-
   /* background:url(../img/about-y.gif) 50% top repeat-y;  border-bottom:1px solid #dadada;*/
 }
 
@@ -453,16 +591,19 @@ html, body {
   position: absolute;
   right: 47px;
   bottom: 34px;
+
   display: block;
+
   width: 160px;
   height: 62px;
-  content: '';
 
+  content: '';
   /* background:url(../img/oil.jpg) 0 0 no-repeat */
 }
 
 .site-content {
   float: left;
+
   width: 100%;
 }
 
@@ -470,26 +611,30 @@ html, body {
   min-height: 0;
   margin: 0;
   padding: 25px 0 10px;
-
   > h1 + img {
     width: 100%;
     max-width: 100%;
   }
-
   .title-wr {
     margin-bottom: 30px;
+
     text-align: center;
+
     border-bottom: 1px solid #aaa;
   }
 }
 
 .main-title {
   font-size: 16px;
+
   position: relative;
   top: 10px;
+
   display: inline-block;
+
   margin: 0;
   padding: 0 20px;
+
   background: #fff;
 }
 
@@ -504,7 +649,9 @@ html, body {
 
 .site-content-left {
   position: relative;
+
   float: left;
+
   width: 347px;
   margin-left: -100%;
   padding: 0 0 10px;
@@ -512,17 +659,22 @@ html, body {
 
 .about-pic {
   font-size: 0;
+
   display: inline-block;
+
   margin: 43px 31px 36px 29px;
+
   border: 8px solid #fff;
   -webkit-box-shadow: 0 0 0 1px #000 inset;
-  -moz-box-shadow: 0 0 0 1px #000 inset;
-  box-shadow: 0 0 0 1px #000 inset;
+     -moz-box-shadow: 0 0 0 1px #000 inset;
+          box-shadow: 0 0 0 1px #000 inset;
+
   behavior: url(../assets/pie.htc);
 }
 
 .contacts-pic {
   font-size: 0;
+
   margin: 48px 31px 20px 29px;
 }
 
@@ -531,21 +683,25 @@ html, body {
 
 .edit-block-wrap {
   overflow: hidden;
+
   margin: 0 0 20px 0;
   padding: 0 55px 0 29px;
 }
 
 .edit-block-title {
   font: bold 14px/1 Arial, Helvetica, sans-serif;
+
   padding: 0 0 15px 0;
+
   text-transform: uppercase;
+
   color: #c30;
 }
 
 .edit-block-body {
   font: 12px/1.2 Arial, Helvetica, sans-serif;
-  color: #666;
 
+  color: #666;
   p {
     margin: 0 0 10px;
   }
@@ -556,26 +712,31 @@ html, body {
 
 .news-wrap {
   overflow: hidden;
+
   margin: 0 31px 36px 29px;
   padding: 0 22px 0;
 }
 
 .news-name {
   font: bold 14px/1 Arial, Helvetica, sans-serif;
+
   padding: 0 0 17px;
+
   text-transform: uppercase;
+
   color: #c30;
 }
 
 .news-body {
   font: 12px/1.3 Arial, Helvetica, sans-serif;
+
   padding: 0 0 17px;
 }
 
 .news-title a {
   text-decoration: none;
-  color: #069;
 
+  color: #069;
   &:hover {
     text-decoration: underline;
   }
@@ -583,7 +744,9 @@ html, body {
 
 .site-informers {
   font-size: 14px;
+
   margin: 0 0 20px;
+
   text-align: center;
 }
 
@@ -592,88 +755,86 @@ html, body {
 
 .site-footer {
   font: 14px/1 Arial, Helvetica, sans-serif;
-  position: relative;
-  color: #333;
 
+  position: relative;
+
+  color: #333;
   .footer-inner {
     display: flex;
+
     margin: 12px auto 0;
     padding: 7px 0 6px;
-    border-top: 1px solid #aaa;
-    justify-content: space-between;
 
+    border-top: 1px solid #aaa;
+
+    justify-content: space-between;
     /*border-bottom: 1px solid #aaa;*/
   }
-
   a {
     color: #ccc;
   }
-
   .footer-block {
     text-align: center;
-    border-right: 1px solid #aaa;
-    flex: 1 1;
 
+    border-right: 1px solid #aaa;
+
+    flex: 1 1;
     &.logo {
       flex: 2 1;
     }
-
     &:last-of-type {
       border: none;
     }
   }
-
   .logo {
     display: table;
+
     text-decoration: none;
   }
-
   .phones {
     margin: 0 auto;
-
     .mobile_phone {
       display: block;
     }
   }
-
   .logo {
     .logo-img {
       width: 64px;
       height: 64px;
       padding: 0 10px 0 15px;
     }
-
     .logo-text {
       display: table-cell;
+
       padding-right: 20px;
+
       text-align: center;
       vertical-align: middle;
     }
   }
-
   .contacts {
     display: flex;
+
     padding: 0 22px;
+
     align-items: center;
   }
-
   .text {
     font-family: Verdana;
     font-size: 11px;
     font-weight: bold;
     line-height: 18px;
+
     text-align: center;
+
     color: #333;
   }
-
   .phones {
     font-weight: 400;
   }
-
   .social .icons {
     margin-top: 5px;
   }
-
   .share {
     cursor: pointer;
   }
@@ -682,7 +843,6 @@ html, body {
 .sand .site-footer {
   color: #333;
   background: #d5e0f1;
-
   a {
     color: #333;
   }
@@ -690,6 +850,7 @@ html, body {
 
 .footer-inner {
   position: relative;
+
   width: 840px;
   min-height: 51px;
   margin: 0 auto;
@@ -703,8 +864,8 @@ html, body {
   position: absolute;
   right: 10px;
   bottom: 24px;
-  max-width: 230px;
 
+  max-width: 230px;
   span.copyright {
     font-size: 11px !important;
   }
@@ -716,6 +877,7 @@ html, body {
   position: absolute;
   top: 14px;
   left: 10px;
+
   max-width: 230px;
 }
 
@@ -723,6 +885,7 @@ html, body {
   width: 310px;
   margin: 0 auto;
   padding: 16px 10px 24px 59px;
+
   text-align: center;
 }
 
@@ -736,60 +899,60 @@ html, body {
 table {
   &.table0 {
     float: none;
+
     border-spacing: 0;
     border-collapse: collapse;
-
     td {
       padding: 5px;
+
       border: none;
     }
   }
-
   &.table1 {
     float: none;
+
     border-spacing: 0;
     border-collapse: collapse;
-
     tr:hover {
       background: none;
     }
-
     td {
       padding: 5px;
+
       border: 1px solid #91949a;
     }
   }
-
   &.table2 {
     float: none;
+
     border-spacing: 0;
     border-collapse: collapse;
-
     tr:hover {
       background: none;
     }
-
     td {
       padding: 5px;
+
       border: 1px solid #91949a;
     }
-
     th {
       padding: 8px 5px;
+
       text-align: left;
+
       color: #fff;
       border: 1px solid #91949a;
       background-color: #c00;
     }
   }
-
   &.gallery {
     border-spacing: 10px;
     border-collapse: separate;
-
     td {
       padding: 15px;
+
       text-align: center;
+
       background-color: #e9e9e9;
     }
   }
@@ -801,42 +964,51 @@ table {
   position: absolute;
   top: 50%;
   left: -13px;
+
   overflow: hidden;
+
   width: 31px;
   height: 31px;
   margin-top: -14px;
+
   background: url(../img/my_mic.png) 0 0 no-repeat;
 }
 
 .audiojs {
   font-family: monospace;
   font-size: 12px;
+
   overflow: hidden;
+
   width: 31px;
   height: 31px;
+
   background: none;
   background-image: none;
   background-image: none;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  -o-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
 
+       -o-box-shadow: none;
   p {
     display: none;
+
     width: 31px;
     height: 31px;
     margin: 0;
+
     cursor: pointer;
   }
-
   .play-pause {
     float: left;
     overflow: hidden;
+
     width: 31px;
     height: 31px;
     margin: 0;
     padding: 0;
+
     border-right: none;
   }
 }
@@ -846,6 +1018,7 @@ table {
 .form-block {
   margin: 0 0 15px;
   padding: 43px 30px 25px 30px;
+
   color: #676767;
   background: #d5d8dd;
 }
@@ -858,72 +1031,79 @@ table {
   p {
     margin: 0 0 10px;
   }
-
   .form-name {
     font-size: 13px;
     font-weight: bold;
+
     position: relative;
+
     margin: 0 0 15px;
     padding: 0 0 14px;
+
     color: #c30;
     background: url(../img/title-x.gif) 50% 100% / 1px 4px repeat-x;
   }
-
   .item-name {
     font-size: 10pt;
+
     margin: 0 0 5px;
     padding: 0;
   }
-
-  input[type=text], textarea {
+  input[type=text],
+  textarea {
     font-family: Arial, Helvetica, sans-serif;
+
     width: 277px;
     margin: 0;
     padding: 3px;
+
     border: 1px solid #989795;
     outline: none;
     background: #fff;
   }
-
   select {
     font-family: Arial, Helvetica, sans-serif;
+
     width: 277px;
+    width: 285px;
     margin: 0;
     padding: 3px;
+
     border: 1px solid #989795;
     outline: none;
     background: #fff;
-    width: 285px;
   }
-
-  input[type=text].item-error, textarea.item-error, select.item-error {
+  input[type=text].item-error,
+  textarea.item-error,
+  select.item-error {
     border-color: #c30;
   }
-
   input {
     &[name=_cn] {
       width: 94px;
       margin-top: 5px;
       margin-right: 5px;
     }
-
     &[type=submit] {
       font-family: Arial, Helvetica, sans-serif;
+
       margin: 0;
+
       cursor: pointer;
     }
   }
-
   .form-item {
     margin: 0 0 10px;
     padding: 0;
   }
-
   .form-clear {
     font-family: Arial, Helvetica, sans-ser 5px 0 0;
+
     display: inline-block;
+
     margin: 0 10px 0 0;
     padding: 0;
+
     cursor: pointer;
   }
 }
@@ -932,7 +1112,6 @@ table {
   &.s3_pagelist_lnk_prev {
     margin-right: 10px;
   }
-
   &.s3_pagelist_lnk_next {
     margin-left: 5px;
   }
@@ -947,20 +1126,25 @@ table {
 .video-review-block {
   font-size: 0;
   line-height: 0;
+
   margin: 0;
   padding: 10px 2px 10px 30px;
+
   border-right: 1px solid #999;
 }
 
 .video-review-title {
   font: bold 14px/18px Arial, Helvetica, sans-serif;
+
   position: relative;
+
   margin: 0 29px 20px 0;
   padding: 0 80px 15px 0;
+
   text-transform: uppercase;
+
   color: #c30;
   border-bottom: 1px solid #999;
-
   .review-icon {
     position: absolute;
     top: 3px;
@@ -972,33 +1156,39 @@ table {
   a {
     display: inline-block;
     overflow: hidden;
+
     width: 83px;
     height: 68px;
     margin: 0 18px 18px 0;
     padding: 0;
-    vertical-align: top;
 
-    img, &:hover img {
+    vertical-align: top;
+    img,
+    &:hover img {
       max-width: 100%;
       height: auto;
+
       border: none;
     }
   }
-
   &.video-answers a {
     display: inline-block;
     overflow: auto;
+
     width: 130px;
     height: auto;
     margin: 0 18px 18px 0;
     padding: 0;
-    vertical-align: top;
 
+    vertical-align: top;
     span {
       font: normal 12px Arial, Helvetica, sans-serif;
       line-height: normal;
+
       display: block;
+
       margin-top: 5px;
+
       color: #369;
     }
   }
@@ -1006,6 +1196,7 @@ table {
 
 .highslide-loading {
   padding: 2px;
+
   color: white;
   border: 1px solid white;
   background-color: black;
@@ -1017,22 +1208,25 @@ table {
 .page-videos {
   margin: 0 0 20px;
   padding: 0 0 15px;
-  border-bottom: 1px solid #999;
 
+  border-bottom: 1px solid #999;
   ul {
     overflow: auto;
+
     max-height: 140px;
     margin: 0;
     padding: 0;
-    list-style: none;
 
+    list-style: none;
     li {
       font: normal 12px Arial, Helvetica, sans-serif;
       line-height: normal;
-      display: block;
-      margin-bottom: 5px;
-      color: #0857a6;
 
+      display: block;
+
+      margin-bottom: 5px;
+
+      color: #0857a6;
       &:hover {
         cursor: pointer;
         text-decoration: underline;
@@ -1046,20 +1240,23 @@ table {
 .page-item {
   margin: 0 0 25px;
   padding-bottom: 10px;
+
   border-bottom: 1px solid #999;
 }
 
 .page-image {
   font-size: 0;
   line-height: 0;
+
   display: inline;
   float: left;
+
   width: 205px;
   margin: 0 10px 10px 0;
   padding: 0;
-
   a {
     display: inline-block;
+
     margin: 0 10px 10px 0;
   }
 }
@@ -1067,7 +1264,6 @@ table {
 .page-text {
   margin: 0;
   padding: 0;
-
   p {
     margin: 0 0 10px;
   }
@@ -1075,8 +1271,10 @@ table {
 
 .page-text-title {
   font: bold 15px Arial, Helvetica, sans-serif;
+
   margin: 0 0 15px;
   padding: 0;
+
   color: #c30;
 }
 
@@ -1087,13 +1285,15 @@ table {
   font-weight: 700;
   line-height: 1.5;
   line-height: normal;
+
   display: block;
+
   color: #fff;
   color: #0857a6;
   border-radius: 1px 2px 2px 1px;
   background-color: #f90;
-  box-shadow: inset 0 0 16px rgba(204, 102, 0, 0.75);
-  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 0 16px rgba(204, 102, 0, .75);
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, .75);
 }
 
 .page-videos ul li:hover {
@@ -1106,20 +1306,23 @@ table {
 .page-item {
   margin: 0 0 25px;
   padding-bottom: 10px;
+
   border-bottom: 1px solid #999;
 }
 
 .page-image {
   font-size: 0;
   line-height: 0;
+
   display: inline;
   float: left;
+
   width: 205px;
   margin: 0 10px 10px 0;
   padding: 0;
-
   a {
     display: inline-block;
+
     margin: 0 10px 10px 0;
   }
 }
@@ -1127,7 +1330,6 @@ table {
 .page-text {
   margin: 0;
   padding: 0;
-
   p {
     margin: 0 0 10px;
   }
@@ -1135,8 +1337,10 @@ table {
 
 .page-text-title {
   font: bold 15px Arial, Helvetica, sans-serif;
+
   margin: 0 0 15px;
   padding: 0;
+
   color: #c30;
 }
 
@@ -1145,9 +1349,85 @@ table {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
+
   color: #fff;
   border-radius: 1px 2px 2px 1px;
   background-color: #f90;
-  box-shadow: inset 0 0 16px rgba(204, 102, 0, 0.75);
-  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 0 16px rgba(204, 102, 0, .75);
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, .75);
+}
+
+
+.online-form {
+  .online-form--title {
+    font-size: 14px;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 16px 0;
+
+    text-align: center;
+    text-transform: none;
+
+    color: #369;
+  }
+  fieldset {
+    margin: 0 0 5px;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f1;
+    .online-form--label {
+      font-size: 12px;
+
+      margin: 0 0 10px;
+      padding: 0;
+
+      text-align: left;
+      text-transform: none;
+
+      color: #333;
+      span {
+        color: red;
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 10px 0 0;
+
+      list-style-type: none;
+
+      border-top: 1px solid #ccc;
+      li {
+        margin: 0 0 8px;
+
+        text-align: left;
+      }
+    }
+    input[type=text] {
+      width: 100%;
+      padding: 4px;
+
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+    }
+    &:nth-child(4) {
+      margin-bottom: 15px;
+    }
+  }
+  button {
+    width: 100%;
+    padding: 15px 0;
+transition: all .8s;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(51, 153, 102);
+    box-shadow: inset 0 0 10px 0 rgba(0, 51, 51, .75);
+    &:hover {
+      background-color: darken(rgb(51, 153, 102), 15%);
+    }
+  }
 }

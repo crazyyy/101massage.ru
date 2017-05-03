@@ -100,17 +100,51 @@
             2. Забронировать место в группе, оплатив 20% от стоимости учебного курса. Это можно сделать, приехав в школу лично или выполнив перевод на карту Сбербанка&nbsp; <strong>4276 3800 1374 2296</strong>&nbsp; через банкомат, сервис <a href="https://online.sberbank.ru/CSAFront/index.do" target="_blank">Сбербанк он-лайн</a> или другим удобным образом.</span></span>
                   </td>
                   <td style="width: 20px;">&nbsp;</td>
-                  <td style="width: 300px; text-align: center; vertical-align: top;"><span style="font-size:10pt;"><span style="color: rgb(204, 51, 0);"><strong><span style="font-family: arial,helvetica,sans-serif;">ФОРМА ДЛЯ ЗАПИСИ ON-LINE</span></strong>
-                    </span>
-                    </span>
-                  </td>
+                  <td style="width: 300px; text-align: center; vertical-align: top;"></td>
                 </tr>
                 <tr>
+
+
                   <td style="width: 20px; text-align: center;">&nbsp;</td>
-                  <td style="width: 300px; text-align: center;"><span style="color:#333333;"><span style="font-size: 10pt;">Форма для записи оn-line<br>
-            будет готова в ближайшее время.<br>
-            Извините за временные неудобства! ))</span></span>
+
+                  <td class="online-form" style="width: 300px; text-align: center;">
+
+                    <h6 class="online-form--title">Заполните форму для записи on-line</h6>
+                    <form action="">
+                      <fieldset>
+                        <h6 class="online-form--label"><span>*</span> Выберите курс обучения массажу</h6>
+                        <ul>
+                          <li><input type="checkbox" id="check-1">&nbsp;&nbsp;&nbsp;<label for="check-1">“Русский классический массаж ...”</label></li>
+                          <li><input type="checkbox" id="check-2">&nbsp;&nbsp;&nbsp;<label for="check-2">“Антицеллюлитный массаж и СПА ...”</label></li>
+                          <li><input type="checkbox" id="check-3">&nbsp;&nbsp;&nbsp;<label for="check-3">“Специальные приёмы и навыки...”</label></li>
+                        </ul>
+                      </fieldset>
+                      <fieldset>
+                        <label for="your-date">
+                          <h6 class="online-form--label"><span>*</span> Укажите желаемую дату начала занятий</h6>
+                          <input type="text" id="your-date">
+                        </label>
+                      </fieldset>
+                      <fieldset>
+                        <label for="your-name">
+                          <h6 class="online-form--label"><span>*</span> Пожалуйста, укажите Ваше имя</h6>
+                          <input type="text" id="your-name">
+                        </label>
+                      </fieldset>
+                      <fieldset>
+                        <label for="your-phone">
+                          <h6 class="online-form--label"><span>*</span> Ваш контактный телефон</h6>
+                          <input type="text" id="your-phone">
+                        </label>
+                      </fieldset>
+                      <button>ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ</button>
+                    </form>
+
                   </td>
+
+
+
+
                 </tr>
                 <tr>
                   <td style="width: 20px;">&nbsp;</td>
