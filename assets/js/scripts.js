@@ -21,3 +21,72 @@ if (typeof jQuery === 'undefined') {
   console.log('jQuery has loaded');
 }
 // Place any jQuery/helper plugins in here.
+
+
+$('.plain-form').on('submit', function(e) {
+  e.preventDefault();
+
+
+  $(this).addClass('current-form');
+
+
+  var currForm = $(this),
+
+    phone = $.trim($('#your-phone').val()),
+    name = $.trim($('#your-name').val()),
+    date = $.trim($('#your-date').val()),
+
+    postData = $(this).serializeArray(),
+    formURL = $(this).attr('action'),
+    thanx = $('.online-form .thanx'),
+    message = $('.online-form .message');
+
+  $(message).fadeIn(200);
+
+  if (name != null && name.length == 0) {
+    $(message).addClass('message-err').html('Укажите имя');
+    $('#your-name').addClass('input-error');
+    event.preventDefault();
+  } else if (phone != null && phone.length == 0) {
+    $('#your-name').removeClass('input-error');
+    $(message).addClass('message-err').html('Укажите телефон');
+    $('#your-phone').addClass('input-error');
+    event.preventDefault();
+  } else if (date != null && date.length == 0) {
+    $('#your-phone').removeClass('input-error');
+    $('#your-name').removeClass('input-error');
+    $(message).addClass('message-err').html('Укажите дату');
+    $('#your-date').addClass('input-error');
+    event.preventDefault();
+  } else {
+
+
+
+
+    $('#your-phone').removeClass('input-error');
+    $('#your-name').removeClass('input-error');
+    $('#your-date').removeClass('input-error');
+
+        $(message).addClass('message-ok');
+        $(message).html('Успешно отправилось!');
+        $(message).fadeOut(1500);
+        $(thanx).fadeIn(1500);
+
+
+    // $.ajax({
+    //   url: formURL,
+    //   type: 'POST',
+    //   data: postData,
+    //   beforeSend: function() {
+    //     $(message).html('Отправляем...');
+    //   },
+    //   success: function(data) {
+    //     $(message).addClass('message-ok');
+    //     $(message).html('Успешно отправилось!');
+    //     $(message).fadeOut(1500);
+    //     $(thanx).fadeIn(1500);
+    //   }
+    // });
+  };
+  $(this).removeClass('current-form');
+});

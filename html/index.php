@@ -110,7 +110,7 @@
                   <td class="online-form" style="width: 300px; text-align: center;">
 
                     <h6 class="online-form--title">Заполните форму для записи on-line</h6>
-                    <form action="">
+                    <form  class="plain-form" action="data/form.php" method="post">
                       <fieldset>
                         <h6 class="online-form--label"><span>*</span> Выберите курс обучения массажу</h6>
                         <ul>
@@ -139,6 +139,9 @@
                       </fieldset>
                       <button>ЗАПИСАТЬСЯ НА ОБУЧЕНИЕ</button>
                     </form>
+                    <div class="thanx">
+                      <h6 class="message">Отправляем...</h6>
+                    </div><!-- thanx -->
 
                   </td>
 
@@ -231,5 +234,10 @@
   </footer>
 
   <script type="text/javascript" src="js/inline_17.js"></script>
+
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+
+
 </body>
 </html>

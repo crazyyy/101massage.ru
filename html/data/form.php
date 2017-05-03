@@ -2,7 +2,7 @@
 
 date_default_timezone_set('Europe/Moscow');
 // User settings
-$to = "net.komaroff@mail.ru";
+$to = "aparserok@gmail.com";
 $subject = "Заказ с главной посадочной страницы";
 
 if(@$_POST["hidden"])
@@ -13,7 +13,7 @@ if(@$_POST["hidden"])
     $fnm=htmlspecialchars($fnm); // обрабатываем
 
 
-    $email="info@net-komaroff.ru"; // e-mail откуда письмо
+    $email="aparserok@gmail.com"; // e-mail откуда письмо
 
     $phone=$_POST["phone"];
 
