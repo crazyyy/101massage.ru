@@ -1,0 +1,2 @@
+hs.align="center",hs.transitions=["expand","crossfade"],hs.outlineType="rounded-white",hs.fadeInOut=!0,hs.dimmingOpacity=.75,$(function(){function e(){return hs.htmlExpand(this,{src:this.href+"?ajax=true",objectType:"iframe",wrapperClassName:"draggable-header"})}void 0==readCookie("callback")&&setTimeout(function(){$(".callback-but").trigger("click"),createCookie("callback",1)},2e4),$(".callback-but").on("click",e)});
+//# sourceMappingURL=maps/main.js.map
